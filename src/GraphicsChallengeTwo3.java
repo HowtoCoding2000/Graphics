@@ -9,13 +9,13 @@ public class GraphicsChallengeTwo3 extends Canvas
 		public static void main(String[] args) 
 			{
 				GraphicsChallengeTwo3 canvas = new GraphicsChallengeTwo3();
-				JFrame frame = new JFrame();
-				frame.setSize(500, 500);
-				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-				frame.getContentPane().add(canvas).setBackground(Color.white);
+				JFrame frame = new JFrame(); //Creates new frame
+				frame.setSize(500, 500); //Sets frame size
+				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Allows X to close the frame
+				frame.getContentPane().add(canvas).setBackground(Color.white); //Sets background color to white
 				frame.setLocationRelativeTo(null); //Sets JPanel to center of screen 
-				frame.setResizable(false);
-				frame.setVisible(true);
+				frame.setResizable(false); //Allows frame size to be changed
+				frame.setVisible(true); //Makes frame visible
 			}
 		public void paint(Graphics graphics)
 			{
